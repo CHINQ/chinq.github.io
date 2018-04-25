@@ -1,0 +1,144 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Monkeyer
+description: java技术文章
+keywords: Java
+url: http://blog.arcoder.com
+feed: /atom.xml
+favicon: /images/shortcut.jpg
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 关于我
+    url: /about.html
+  - text: 友情链接
+    url: /links.html
+
+#Author config
+author:
+    name: Monkeyer
+    email: arcodinging@gmail.com
+    imageLink: /images/header.jpg
+    simpleIntro: 知识的成长取决于同行间的大量交流
+    detailIntro:
+      <p>发现一只逗逼程序猿</p>
+      <p>喜欢Coding、摄影、Game、动漫、电影、音乐的中二青年</p>
+      <p></p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/u/2304684733
+  # - class: icon-facebook
+  #  url: https://www.facebook.com/NQ.Chi.14019
+  - class: icon-github-alt
+    url: https://github.com/CHINQ/
+  - class: icon-twitter
+    url: https://twitter.com/MrCHINQ
+  # - class: icon-bitbucket
+  #   url: https://bitbucket.org/Monkeyer/
+  - class: icon-flickr
+    url: https://www.flickr.com/photos/monkeyer_/
+  # - class: icon-google-plus
+  #   url: https://plus.google.com/u/0/114150921656754855962/posts
+
+#Links
+customLinks:
+  - item:
+    - text: Jekyll
+      url: http://jekyllrb.com
+    message: Friends
+  - item:
+    - text: Java Code Geeks
+      url: http://www.javacodegeeks.com/
+    - text: Web Developer
+      url: http://www.fromdev.com/
+    - text: BeginnersBook
+      url: http://beginnersbook.com/
+    - text: Mkyong
+      url: http://www.mkyong.com/
+    - text: Java By Nataraj
+      url: http://javabynataraj.blogspot.in/
+    - text: Iteye
+      url: http://www.iteye.com/
+    - text: Importnew
+      url: http://www.importnew.com/all-posts
+    message: About Java
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: true
+  id: UA-75356377-1
+
+#baidu tongji
+baiduTongji:
+  config: true
+  id: ca6235dfa9434a1c4d4585dd8e00eb10
+
+#comment config
+disqus:
+  config: false
+  id: monkeyerblog
+
+duoshuo:
+  config: false
+  id: arcoder
+
+weibo:
+  config: false
+  ralateuid: 2304684733
+  appkey: 1573853361
+
+#baidu share config
+baiduShare:
+  config: true
+
+baiduPush:
+  config: true
