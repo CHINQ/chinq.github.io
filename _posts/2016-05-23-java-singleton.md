@@ -1,8 +1,10 @@
 ---
-layout: post
 title: gof-singleton
 date: 2016/5/23 14:35:57
-category: "java"
+categories:
+- Java
+tags:
+- Java
 ---
 
 当被问到要实现一个单例模式时，很多人的第一反应是写出如下的代码，包括教科书上也是这样教我们的。 

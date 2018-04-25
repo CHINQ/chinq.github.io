@@ -1,8 +1,10 @@
 ---
-layout: post
 title: markdown语法说明
 date: 2016-02-22 11:23:46
-category: "code"
+categories:
+- Code
+tags:
+- Code
 ---
 
 markdown使用技巧和基本语法

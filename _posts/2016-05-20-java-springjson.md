@@ -1,8 +1,10 @@
 ---
-layout: post
 title: spring MappingJacksonJsonView
 date: 2016/5/20 12:30:21 
-category: "java"
+categories:
+- Java
+tags:
+- Java
 ---
 spring 的MappingJacksonJsonView是将Model渲染成json的类。  
 

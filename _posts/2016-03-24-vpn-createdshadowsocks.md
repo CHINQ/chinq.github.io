@@ -1,8 +1,10 @@
 ---
-layout: post
 title: vps搭建shadowsocks
 date: 2016-03-24 13:06:26
-category: "vps"
+categories:
+- VPN
+tags:
+- VPN
 ---
 
 Shadowsocks是一个安全的Socks代理，用于保护网络流量不被干扰，也是开源的项目。主要特性包括：

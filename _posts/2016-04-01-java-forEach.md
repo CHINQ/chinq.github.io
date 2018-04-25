@@ -1,8 +1,10 @@
 ---
-layout: post
 title: java forEach特性
 date: 2016-04-01 13:19:46
-category: "java"
+categories:
+- Java
+tags:
+- Java
 ---
 
 Journey of for loop in Java, for(index) to forEach().

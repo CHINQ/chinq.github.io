@@ -1,8 +1,10 @@
 ---
-layout: post
 title: javaweb servlet实例
 date: 2016-02-29 11:23:46
-category: "java"
+categories:
+- Java
+tags:
+- Java
 ---
 
 本文介绍的是一个简单的javaweb实例。通过jsp、xml、servlet实现数据和视图的传递。  

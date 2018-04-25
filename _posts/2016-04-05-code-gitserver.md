@@ -1,8 +1,10 @@
 ---
-layout: post
 title: centos搭建git服务端
 date: 2016/4/6 8:50:19 
-category: "code"
+categories:
+- Code
+tags:
+- Code
 ---
 最近买了个VPS搭建SS,想着太浪费了,就准备搭建个git服务器，存放一些私人文件。  
 vps的环境是Centos。本机的环境是Windows10，安装的git客户端。

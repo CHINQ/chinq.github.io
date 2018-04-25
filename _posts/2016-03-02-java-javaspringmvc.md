@@ -1,8 +1,10 @@
 ---
-layout: post
 title: javaweb springmvc实例
 date: 2016-03-02 11:23:46
-category: "java"
+categories:
+- Java
+tags:
+- Java
 ---
 
 这是一个 Java Web 的 SpringMvc 实例。  

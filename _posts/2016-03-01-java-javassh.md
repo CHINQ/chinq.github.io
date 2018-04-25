@@ -1,8 +1,10 @@
 ---
-layout: post
 title: javaweb ssh实例
 date: 2016-03-01 11:23:46
-category: "java"
+categories:
+- Java
+tags:
+- Java
 ---
 
 本文介绍的一个简单基于ssh的javaweb实例。  

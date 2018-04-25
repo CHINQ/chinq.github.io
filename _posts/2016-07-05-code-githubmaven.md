@@ -2,7 +2,10 @@
 layout: post
 title: GitHub构建个人Maven仓库
 date: 2016/7/5 9:45:34 
-category: "code"
+categories:
+- Code
+tags:
+- Code
 ---
 
 Maven是一个项目管理工具，依赖管理功能极其便利。我们可以利用GitHub来发布jar包，并利用它的raw服务提供对外下载功能。
